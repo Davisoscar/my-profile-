@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header, .category, .socials {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center; /* Centers text */
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block; /* Makes the element a block-level element */
+    margin: auto; /* Centers the element horizontally */
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #333;
+}
+
+.socials i {
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .header, .category, .socials {
+        margin: 10px;
+        padding: 10px;
+    }
+}
